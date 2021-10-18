@@ -1,0 +1,25 @@
+{
+  "name": "jaskier",
+  "version": "1.0.0",
+  "description": "Music bot for discord",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benjo Kazooie",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.6.0",
+    "@discordjs/voice": "^0.6.0",
+    "discord-player": "^5.1.0",
+    "discord.js": "^13.2.0",
+    "discord.js-master": "^13.0.2-dev",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^4.4.0",
+    "libsodium-wrappers": "^0.7.9",
+    "opusscript": "^0.0.8",
+    "tweetnacl": "^1.0.3",
+    "yt-search": "^2.10.1",
+    "ytdl-core": "^4.9.1"
+  }
+}
