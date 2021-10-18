@@ -17,7 +17,7 @@ for (const file of commandFiles)
 }
 
 client.once('ready', () => {
-    console.log('Jaskier is getting his lute ready!');
+    console.log('Bot ready');
 });
 
 client.on('message', message => {
@@ -51,9 +51,9 @@ client.on('message', message => {
     }
     catch (err)
     {
-        message.reply(':middle_finger: ***Jaskier had a stronk and died, please dont try that again***');
+        message.reply('Bot crashed');
         console.log(err);
     }
 });
 
-client.login('ODk2NzA0OTYwNjczMjQzMTM2.YWK_kg.z4Q6faMl9kN4kZzGOShDy4UDd_A');
+client.login('TOKEN REMOVED FOR GITHUB');
